@@ -1,0 +1,14 @@
+{
+  "name": "robotics-news-aggregator",
+  "version": "1.0.0",
+  "description": "Robotics news aggregator: Express + RSS backend, Bootstrap frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "rss-parser": "^3.13.0"
+  }
+}
